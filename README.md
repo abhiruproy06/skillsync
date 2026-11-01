@@ -8,7 +8,7 @@
 ### Team Information
 - **Team Member 1:** Abhijna Marathe (SRN: `PES2UG24CS020`)
 - **Team Member 2:** Abhirup Roy (SRN: `PES2UG24CS025`)
-- **Course Instructor:** Dr. Nagasundari S
+- **Course Faculty:** Prof. Deena Hajim
 
 ---
 
@@ -139,7 +139,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 5. Demonstration & Evaluation Guide
 1. **Interactive Persona Switcher (Top Right in Navbar):**
-   - Click to switch between **Abhijna Marathe** (PES2UG24CS020), **Abhirup Roy** (PES2UG24CS025), and **Dr. Nagasundari S** (Faculty Admin).
+   - Click to switch between **Abhijna Marathe** (PES2UG24CS020), **Abhirup Roy** (PES2UG24CS025), and **Prof. Deena Hajim** (Faculty Admin).
 2. **Live DBMS Lab 04 Playground (`/playground`):**
    - One-click testing console executing live MySQL Stored Procedures, Views, Triggers, and MongoDB Aggregations with full SQL statement and returned JSON output!
 3. **Match Engine (`/matching`):**
@@ -165,3 +165,4 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
   - B-Tree Performance Indexes & Full-Text Indexing
   - MongoDB Activity Logging & NoSQL Aggregation Pipeline
   - Next.js Responsive UI Components, Match Engine Explorer & Playground
+

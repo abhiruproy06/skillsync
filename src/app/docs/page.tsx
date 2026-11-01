@@ -41,9 +41,9 @@ export default function DocsPage() {
           </div>
 
           <div className="bg-slate-50 p-4 rounded-xl border border-slate-100">
-            <p className="text-slate-500 font-medium">Course Instructor</p>
-            <p className="text-sm font-bold text-slate-900 mt-1">Dr. Nagasundari S</p>
-            <p className="text-[11px] text-purple-700 mt-0.5 font-semibold">Associate Professor, Dept. of CSE</p>
+            <p className="text-slate-500 font-medium">Course Faculty</p>
+            <p className="text-sm font-bold text-slate-900 mt-1">Prof. Deena Hajim</p>
+            <p className="text-[11px] text-purple-700 mt-0.5 font-semibold">Department of CSE</p>
             <p className="text-[11px] text-slate-500 mt-2">Database Management Systems (Level 3 Project)</p>
           </div>
         </div>
@@ -274,3 +274,4 @@ export default function DocsPage() {
     </div>
   );
 }
+

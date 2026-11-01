@@ -68,7 +68,7 @@ export default function HomePage() {
         <div>
           <h2 className="text-2xl font-bold text-slate-900">Multi-Paradigm Database Architecture</h2>
           <p className="text-sm text-slate-600">
-            Satisfying Dr. Nagasundari&apos;s Level 3 DBMS specifications through SQL relational design, ACID transactions, and NoSQL/Vector search.
+            Satisfying Prof. Deena Hajim&apos;s Level 3 DBMS specifications through SQL relational design, ACID transactions, and NoSQL/Vector search.
           </p>
         </div>
 

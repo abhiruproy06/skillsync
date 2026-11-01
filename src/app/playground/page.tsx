@@ -82,7 +82,7 @@ export default function PlaygroundPage() {
           DBMS Lab 04 Advanced Features Playground
         </h1>
         <p className="text-slate-300 text-sm md:text-base max-w-3xl leading-relaxed">
-          Demonstrating compliance with all Level 3 Project criteria set by Dr. Nagasundari S.
+          Demonstrating compliance with all Level 3 Project criteria set by Prof. Deena Hajim.
           Click any card below to dispatch and inspect the live execution of Stored Procedures, Functions, Views, Transactions, and NoSQL pipelines.
         </p>
         <div className="pt-2 flex flex-wrap gap-3 text-xs">
@@ -239,3 +239,4 @@ export default function PlaygroundPage() {
     </div>
   );
 }
+

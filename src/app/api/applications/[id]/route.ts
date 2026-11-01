@@ -50,3 +50,4 @@ export async function PUT(
     return NextResponse.json({ success: false, error: 'Internal server error' }, { status: 500 });
   }
 }
+

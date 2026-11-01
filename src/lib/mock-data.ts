@@ -8,11 +8,11 @@ import { User, Skill, UserSkill, Project, ProjectSkill, Team, TeamMember, Applic
 export const mockUsers: User[] = [
   {
     user_id: 1,
-    name: 'Dr. Nagasundari S',
-    email: 'nagasundari@pes.edu',
+    name: 'Prof. Deena Hajim',
+    email: 'deenahajim@pes.edu',
     role: 'ADMIN',
-    bio: 'Associate Professor, Department of Computer Science & Engineering. Course Instructor for Database Management Systems.',
-    interests: 'Database Systems, Data Mining, Distributed Databases',
+    bio: 'Assistant Professor, Department of Computer Science & Engineering. Course Faculty for Database Management Systems.',
+    interests: 'Database Systems, Data Modeling, Distributed Databases',
   },
   {
     user_id: 2,
@@ -167,7 +167,7 @@ export const mockProjects: Project[] = [
     domain: 'Intelligent Systems & Databases',
     max_team_size: 4,
     status: 'OPEN',
-    creator_name: 'Dr. Nagasundari S',
+    creator_name: 'Prof. Deena Hajim',
     team_id: 1,
     team_name: 'SyncSquad - Team 20_25',
     current_team_members: 2,
@@ -180,7 +180,7 @@ export const mockProjects: Project[] = [
     domain: 'Distributed Systems',
     max_team_size: 3,
     status: 'OPEN',
-    creator_name: 'Dr. Nagasundari S',
+    creator_name: 'Prof. Deena Hajim',
     team_id: 2,
     team_name: 'StreamOps Order Forge',
     current_team_members: 1,
@@ -193,7 +193,7 @@ export const mockProjects: Project[] = [
     domain: 'Healthcare & Bioinformatics',
     max_team_size: 4,
     status: 'OPEN',
-    creator_name: 'Dr. Nagasundari S',
+    creator_name: 'Prof. Deena Hajim',
     current_team_members: 0,
   },
   {
@@ -204,7 +204,7 @@ export const mockProjects: Project[] = [
     domain: 'IoT & Edge Computing',
     max_team_size: 3,
     status: 'FULL',
-    creator_name: 'Dr. Nagasundari S',
+    creator_name: 'Prof. Deena Hajim',
     team_id: 3,
     team_name: 'IoT Pulse Vanguard',
     current_team_members: 3,
@@ -368,7 +368,7 @@ export const mockActivityLogs: ActivityLog[] = [
   },
   {
     user_id: 1,
-    user_name: 'Dr. Nagasundari S',
+    user_name: 'Prof. Deena Hajim',
     action: 'PUBLISH_PROJECT',
     entity_type: 'PROJECT',
     entity_id: 1,
@@ -397,3 +397,4 @@ export function calculateCompatibilityScore(userId: number, projectId: number): 
 
   return Math.round((totalScore / reqSkills.length) * 10000) / 100;
 }
+

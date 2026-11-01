@@ -22,3 +22,4 @@ SOURCE triggers.sql;
 SOURCE seed.sql;
 
 SELECT 'SkillSync Database Setup Completed Successfully!' AS result;
+

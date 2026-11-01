@@ -117,3 +117,4 @@ HAVING AVG(us.proficiency_level) > (SELECT AVG(proficiency_level) FROM user_skil
     return NextResponse.json({ success: false, error: 'Execution failed' }, { status: 500 });
   }
 }
+

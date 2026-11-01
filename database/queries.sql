@@ -132,3 +132,4 @@ SELECT * FROM v_team_rosters;
 
 -- Query view: Application status tracker
 SELECT * FROM v_application_status_tracker;
+

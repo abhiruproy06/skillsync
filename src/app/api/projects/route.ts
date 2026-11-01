@@ -132,7 +132,7 @@ export async function POST(request: NextRequest) {
         domain,
         max_team_size: max_team_size || 4,
         status: 'OPEN',
-        creator_name: 'Dr. Nagasundari S',
+        creator_name: 'Prof. Deena Hajim',
       };
       mockProjects.push(newProj);
       return NextResponse.json({ success: true, data: { project_id: newId }, message: 'Project created in demo store' }, { status: 201 });
@@ -141,3 +141,4 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ success: false, error: 'Internal server error' }, { status: 500 });
   }
 }
+

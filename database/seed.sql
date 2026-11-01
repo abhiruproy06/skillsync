@@ -27,7 +27,7 @@ TRUNCATE TABLE users;
 -- 1. Seed Users (Faculty / Admins + PES University Students)
 -- -----------------------------------------------------------------------------
 INSERT INTO users (user_id, name, email, password_hash, role, bio, interests) VALUES
-(1, 'Dr. Nagasundari S', 'nagasundari@pes.edu', '$2b$10$DrFayTHSh7/6CF2B9DgoUOS.KhZ58BQB9bVJl7Y41wZMtajNsN2e6', 'ADMIN', 'Associate Professor, Department of Computer Science & Engineering. Course Instructor for Database Management Systems.', 'Database Systems, Data Mining, Distributed Databases'),
+(1, 'Prof. Deena Hajim', 'deenahajim@pes.edu', '$2b$10$DrFayTHSh7/6CF2B9DgoUOS.KhZ58BQB9bVJl7Y41wZMtajNsN2e6', 'ADMIN', 'Assistant Professor, Department of Computer Science & Engineering. Course Faculty for Database Management Systems.', 'Database Systems, Data Modeling, Distributed Databases'),
 (2, 'Admin Coordinator', 'admin@skillsync.pes.edu', '$2b$10$DrFayTHSh7/6CF2B9DgoUOS.KhZ58BQB9bVJl7Y41wZMtajNsN2e6', 'ADMIN', 'SkillSync System Administrator for CSE Experiential Learning Projects.', 'System Architecture, Platform Reliability, Cloud Infrastructure'),
 (3, 'Abhijna Marathe', 'pes2ug24cs020@pes.edu', '$2b$10$DrFayTHSh7/6CF2B9DgoUOS.KhZ58BQB9bVJl7Y41wZMtajNsN2e6', 'STUDENT', 'CSE Student (SRN: PES2UG24CS020). Passionate about Database Systems, Backend Architecture, and Distributed Systems.', 'Relational Databases, Next.js, Applied Cryptography, Distributed Systems'),
 (4, 'Abhirup Roy', 'pes2ug24cs025@pes.edu', '$2b$10$DrFayTHSh7/6CF2B9DgoUOS.KhZ58BQB9bVJl7Y41wZMtajNsN2e6', 'STUDENT', 'CSE Student (SRN: PES2UG24CS025). Full-stack developer with focus on intelligent matching algorithms and NoSQL databases.', 'NoSQL, Graph Databases, Machine Learning, UI/UX Design'),
